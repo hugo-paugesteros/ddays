@@ -1,0 +1,44 @@
+-
+      const timeSlots = [];
+      const startMinutes = 7 * 60 + 30;   // 7:30 in minutes from midnight
+      const endMinutes = 20 * 60 + 30;    // 20:30 in minutes from midnight
+      const increment = 30;               // 30-minute steps
+
+      for (let t = startMinutes; t <= endMinutes; t += increment) {
+        const hour = Math.floor(t / 60);
+        const minute = t % 60;
+        
+        // Format to HH:MM with leading zeros
+        const formattedTime = `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
+        
+        timeSlots.push(formattedTime);
+      }
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="style.css")
+    body 
+
+        h1 Programme
+
+        div#schedule 
+            each time, i in timeSlots
+                - var start = time.replaceAll(":", "")
+                //- - var end = timeSlots[i+1].replaceAll(":", "")
+                div.time-slot(style=`grid-row: time-${start}`)
+                    span #{time}
+
+            each day in [0, 1, 2]
+                each event, i in locals.schedule.schedule[day].events
+                    - var start = event.startTime.replaceAll(":", "")
+                    - var end = event.endTime.replaceAll(":", "")
+                    <div class="session session-#{i} track-#{day+1}" style="grid-row: time-#{start} / time-#{end}; grid-column: track-#{day+1};" data-type="#{event.title}">
+                        p.session-title #{event.title}
+                        //- <span class="session-time">#{event.startTime} - #{event.endTime}</span>
+                        //- <span class="session-track">Track 1</span>
+                        //- <span class="session-presenter">Presenter Name</span>
+                    </div>

@@ -1,0 +1,229 @@
+{
+  "eventName": "d'Alembertiennes 2025",
+  "location": {
+    "city": "Villers-sur-mer",
+    "venue": "Hotel Castellamare"
+  },
+  "dates": "24 - 26 Juin 2025",
+  "organizers": [
+    "Institut Jean le Rond d'Alembert",
+    "cnrs",
+    "SORBONNE UNIVERSITÉ"
+  ],
+  "schedule": [
+    {
+      "day": "Mardi",
+      "date": "2025-06-24",
+      "events": [
+        {
+          "startTime": "08:00",
+          "endTime": "12:00",
+          "title": "Voyage",
+          "details": "Rendez-vous à 4 place Jussieu"
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "14:00",
+          "title": "Déjeuner"
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "title": "Ouverture PYL & Simona"
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "15:00",
+          "title": "Djimédo"
+        },
+        {
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "title": "Ismaël / Antoine"
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "16:00",
+          "title": "Pause"
+        },
+        {
+          "startTime": "16:00",
+          "endTime": "16:30",
+          "title": "Tanguy / Zichen / Corto"
+        },
+        {
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "title": "Suzie & Benoit / Jeff"
+        },
+        {
+          "startTime": "17:00",
+          "endTime": "17:30",
+          "title": "Claudia"
+        },
+        {
+          "startTime": "17:30",
+          "endTime": "18:30",
+          "title": "Cyprien / Sophie"
+        },
+        {
+          "startTime": "18:30",
+          "endTime": "19:00",
+          "title": "Cocktail"
+        },
+        {
+          "startTime": "19:00",
+          "endTime": "19:30",
+          "title": "Photo (plage)"
+        },
+        {
+          "startTime": "19:30",
+          "endTime": "20:00",
+          "title": "Dîner"
+        },
+        {
+          "startTime": "20:00",
+          "endTime": "20:30",
+          "title": "Bar + Jam"
+        }
+      ]
+    },
+    {
+      "day": "Mercredi",
+      "date": "2025-06-25",
+      "events": [
+        {
+          "startTime": "07:30",
+          "endTime": "09:30",
+          "title": "Petit-déjeuner"
+        },
+        {
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "title": "Lucas"
+        },
+        {
+          "startTime": "10:30",
+          "endTime": "11:00",
+          "title": "Wei / Jean / Honorine / Li"
+        },
+        {
+          "startTime": "11:00",
+          "endTime": "11:30",
+          "title": "Pause"
+        },
+        {
+          "startTime": "11:30",
+          "endTime": "12:30",
+          "title": "Posters"
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "14:00",
+          "title": "Déjeuner"
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "title": "Mina / Jiayu"
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "15:00",
+          "title": "Suzie / Basile"
+        },
+        {
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "title": "Simon / Emanuelle / Nathan / Eleonore"
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "16:00",
+          "title": "Pause"
+        },
+        {
+          "startTime": "16:00",
+          "endTime": "16:30",
+          "title": "Rémy / Neha / Marco"
+        },
+        {
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "title": "Jacob / Quentin"
+        },
+        {
+          "startTime": "17:00",
+          "endTime": "19:30",
+          "title": "Plage"
+        },
+        {
+          "startTime": "19:30",
+          "endTime": "20:00",
+          "title": "Dîner"
+        },
+        {
+          "startTime": "20:00",
+          "endTime": "20:30",
+          "title": "Bar + Jam"
+        }
+      ]
+    },
+    {
+      "day": "Jeudi",
+      "date": "2025-06-26",
+      "events": [
+        {
+          "startTime": "07:30",
+          "endTime": "09:30",
+          "title": "Petit-déjeuner"
+        },
+        {
+          "startTime": "09:30",
+          "endTime": "10:00",
+          "title": "Expression libre"
+        },
+        {
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "title": "Amaury / Markus"
+        },
+        {
+          "startTime": "10:30",
+          "endTime": "11:00",
+          "title": "Jean-Loïc"
+        },
+        {
+          "startTime": "11:00",
+          "endTime": "11:30",
+          "title": "Pause"
+        },
+        {
+          "startTime": "11:30",
+          "endTime": "12:00",
+          "title": "Séminaires / Guillaume & Benjamin"
+        },
+        {
+          "startTime": "12:00",
+          "endTime": "12:30",
+          "title": "PYL"
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "14:00",
+          "title": "Déjeuner"
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "title": "Clôture"
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "18:00",
+          "title": "Voyage"
+        }
+      ]
+    }
+  ]
+}

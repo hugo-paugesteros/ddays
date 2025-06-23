@@ -1,0 +1,107 @@
+@import 'reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    overflow-x: auto;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.track-slot {
+  display: none; /* only visible with Grid layout */
+}
+
+#schedule {
+    min-width: min-content;
+    display: grid;
+    grid-template-rows: 
+        [time-0730] var(--row-height)
+        [time-0800] var(--row-height)
+        [time-0830] var(--row-height)
+        [time-0900] var(--row-height)
+        [time-0930] var(--row-height)
+        [time-1000] var(--row-height)
+        [time-1030] var(--row-height)
+        [time-1100] var(--row-height)
+        [time-1130] var(--row-height)
+        [time-1200] var(--row-height)
+        [time-1230] var(--row-height)
+        [time-1300] var(--row-height)
+        [time-1330] var(--row-height)
+        [time-1400] var(--row-height)
+        [time-1430] var(--row-height)
+        [time-1500] var(--row-height)
+        [time-1530] var(--row-height)
+        [time-1600] var(--row-height)
+        [time-1630] var(--row-height)
+        [time-1700] var(--row-height)
+        [time-1730] var(--row-height)
+        [time-1800] var(--row-height)
+        [time-1830] var(--row-height)
+        [time-1900] var(--row-height)
+        [time-1930] var(--row-height)
+        [time-2000] var(--row-height)
+        [time-2030] var(--row-height)
+    ;
+    grid-template-columns:
+    [times] 4em
+    [track-1-start] minmax(max-content, 1fr)
+    [track-1-end track-2-start] minmax(max-content, 1fr)
+    [track-2-end track-3-start] minmax(max-content, 1fr)
+    [track-3-end]
+    ;
+    --row-height: 50px;
+    grid-auto-rows: var(--row-height);
+    
+    /* 2. Create the repeating background gradient */
+    background-image: repeating-linear-gradient(
+    to bottom,
+    #e9e9f7, /* The color of your first two rows */
+    #e9e9f7 calc(var(--row-height) * 1), /* Color stops after 2 rows */
+    transparent calc(var(--row-height) * 1), /* Switch to transparent */
+    transparent calc(var(--row-height) * 2) /* Transparent stops after 2 more rows, completing the 4-row pattern */);
+}
+
+
+.time-slot {
+    grid-column: times;
+    line-height: var(--row-height);
+    transform: translateY(-50%);
+    justify-self: center;
+}
+
+.session {
+    --color: hsla(60, 97%, 40%, .5);
+    background-color: var(--color);
+    margin: .2em;
+    /* padding: 0.1em; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.session[data-type="Déjeuner"], .session[data-type="Dîner"], .session[data-type="Petit-déjeuner"]  {
+    --color: hsla(124, 97%, 40%, 0.5);
+}
+
+.session[data-type="Pause"] {
+    --color: hsla(0, 97%, 40%, 0.5);
+}
+
+.session[data-type="Plage"],
+.session[data-type="Cocktail"],
+.session[data-type="Photo (plage)"],
+.session[data-type="Bar + Jam"] {
+    --color: hsla(201, 97%, 40%, 0.5);
+}
+
+.session[data-type="Voyage"] {
+    --color: hsla(0, 0%, 86%, 0.5);
+}
