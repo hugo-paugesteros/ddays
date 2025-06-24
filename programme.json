@@ -49,32 +49,17 @@
         {
           "startTime": "16:00",
           "endTime": "16:30",
-          "title": "Tanguy / Zichen / Corto"
+          "title": "Rémy / Neha / Marco"
         },
         {
           "startTime": "16:30",
           "endTime": "17:00",
-          "title": "Suzie & Benoit / Jeff"
+          "title": "Jacob / Quentin"
         },
         {
           "startTime": "17:00",
-          "endTime": "17:30",
-          "title": "Claudia"
-        },
-        {
-          "startTime": "17:30",
-          "endTime": "18:30",
-          "title": "Cyprien / Sophie M."
-        },
-        {
-          "startTime": "18:30",
-          "endTime": "19:00",
-          "title": "Cocktail"
-        },
-        {
-          "startTime": "19:00",
           "endTime": "19:30",
-          "title": "Photo (plage)"
+          "title": "Plage"
         },
         {
           "startTime": "19:30",
@@ -86,6 +71,7 @@
           "endTime": "20:30",
           "title": "Bar + Jam"
         }
+
       ]
     },
     {
@@ -145,17 +131,32 @@
         {
           "startTime": "16:00",
           "endTime": "16:30",
-          "title": "Rémy / Neha / Marco"
+          "title": "Tanguy / Zichen / Corto"
         },
         {
           "startTime": "16:30",
           "endTime": "17:00",
-          "title": "Jacob / Quentin"
+          "title": "Suzie & Benoit / Jeff"
         },
         {
           "startTime": "17:00",
+          "endTime": "17:30",
+          "title": "Claudia"
+        },
+        {
+          "startTime": "17:30",
+          "endTime": "18:30",
+          "title": "Cyprien / Sophie M."
+        },
+        {
+          "startTime": "18:30",
+          "endTime": "19:00",
+          "title": "Cocktail"
+        },
+        {
+          "startTime": "19:00",
           "endTime": "19:30",
-          "title": "Plage"
+          "title": "Photo (plage)"
         },
         {
           "startTime": "19:30",
